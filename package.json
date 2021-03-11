@@ -1,0 +1,26 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Expressjs Typescript Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyalexbh/expressjs-typescript-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonnyalexbh/expressjs-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jonnyalexbh/expressjs-typescript-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
