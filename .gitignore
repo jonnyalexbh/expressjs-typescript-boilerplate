@@ -1,3 +1,6 @@
+# Dist directory
+dist
+
 # Dependency directory
 node_modules
 

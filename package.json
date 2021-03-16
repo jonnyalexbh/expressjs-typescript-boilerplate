@@ -4,7 +4,7 @@
   "description": "Expressjs Typescript Boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "tsc && node dist/app.js",
     "start-dev": "nodemon --inspect app.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.3"
   }
 }
