@@ -17,3 +17,4 @@ $ npm run start-dev
 
 ### Node JS Lib dev
 * typescript
+* tsc-watch

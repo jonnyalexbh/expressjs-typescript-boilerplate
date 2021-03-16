@@ -3,7 +3,8 @@
       "target": "es6",
       "module": "commonjs",
       "removeComments": true,
-      "outDir": "./dist"
+      "outDir": "./dist",
+      "esModuleInterop": true,
   },
   "include": [
       "*.ts"
