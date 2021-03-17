@@ -1,11 +1,9 @@
 import express from 'express';
+import * as routes from './app/routes';
 
 const app = express();
 
-/*  */
-app.get('/', (req, res) => {
-  res.status(200).send({ message: 'Hello World' })
-});
+routes.init(app);
 
 app.listen(3000, () => {
   console.log('Example app listening on port 3000!');

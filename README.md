@@ -16,5 +16,7 @@ $ npm run start-dev
 * express
 
 ### Node JS Lib dev
+* @types/node
+* @types/express
 * typescript
 * tsc-watch
