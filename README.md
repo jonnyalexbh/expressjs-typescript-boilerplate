@@ -20,3 +20,23 @@ $ npm run start-dev
 * @types/express
 * typescript
 * tsc-watch
+
+<details>
+<summary><strong>Debugger VSCode</strong></summary>
+
+```json
+{
+  "configurations": [
+  {
+    "name": "Attach",
+    "port": 9229,
+    "request": "attach",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "pwa-node"
+  }
+  ]
+}
+```
+</details>
