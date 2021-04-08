@@ -20,6 +20,14 @@ $ npm run start-dev
 * @types/express
 * typescript
 * tsc-watch
+* eslint
+
+### Install eslint airbnb
+
+```sh
+$ npm install --save-dev eslint
+$ npx eslint --init
+```
 
 <details>
 <summary><strong>Debugger VSCode</strong></summary>
