@@ -1,5 +1,6 @@
 import { Application } from 'express';
 import { healthCheck } from './controllers/health_check';
+import { getUsers } from './controllers/users';
 
 export const init = (app: Application): void => {
   /* health */
@@ -9,4 +10,7 @@ export const init = (app: Application): void => {
   app.get('/', (req, res) => {
     res.status(200).send({ message: 'Hello World' });
   });
+
+  /* users  */
+  app.get('/users', getUsers);
 };

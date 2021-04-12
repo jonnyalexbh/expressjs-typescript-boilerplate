@@ -4,5 +4,8 @@ dist
 # Dependency directory
 node_modules
 
+# dotenv
+.env
+
 # VS Code
 .vscode/

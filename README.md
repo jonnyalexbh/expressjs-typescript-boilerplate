@@ -14,6 +14,8 @@ $ npm run start-dev
 
 ### Node JS Lib
 * express
+* knex
+* pg
 
 ### Node JS Lib dev
 * @types/node
@@ -21,6 +23,7 @@ $ npm run start-dev
 * typescript
 * tsc-watch
 * eslint
+* dotenv
 
 ### Install eslint airbnb
 
